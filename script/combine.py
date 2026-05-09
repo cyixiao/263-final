@@ -26,6 +26,7 @@ def main() -> None:
     perf_paths = [
         MODEL_OUT / "lm" / "perf.csv",
         MODEL_OUT / "gbm" / "perf.csv",
+        MODEL_OUT / "rf" / "perf.csv",
         MODEL_OUT / "ebm" / "perf.csv",
     ]
     frames = [pd.read_csv(path) for path in perf_paths if path.exists()]

@@ -45,6 +45,7 @@ Run the scripts from the repo root.
 python3 script/prep_data.py
 python3 script/run_lm.py
 python3 script/run_gbm.py
+python3 script/run_rf.py
 python3 script/run_ebm.py
 python3 script/combine.py
 ```
@@ -54,6 +55,7 @@ What each script does:
 - `script/prep_data.py`: builds the analysis dataset from the MIMIC-IV demo files
 - `script/run_lm.py`: runs linear regression and elastic net
 - `script/run_gbm.py`: runs gradient boosting
+- `script/run_rf.py`: runs random forest
 - `script/run_ebm.py`: runs EBM and saves EBM explanation figures
 - `script/combine.py`: combines model performance into one summary table
 - `script/ebm_plot.py`: helper functions for EBM plots
@@ -66,6 +68,7 @@ We currently compare four methods:
 - linear regression
 - elastic net regression
 - gradient boosting
+- random forest
 - explainable boosting machine, or EBM
 
 The main metrics are:
