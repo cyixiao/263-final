@@ -1,0 +1,5 @@
+{
+  "n_demo_subjects": 100,
+  "n_first_adult_icu_stays": 100,
+  "n_features_before_filter": 86
+}

@@ -1,0 +1,14 @@
+Variable,Summary
+"Age, years",61.75 (16.17)
+"ICU length of stay, days",3.72 (3.88)
+Log ICU length of stay,0.84 (1.05)
+Female sex,43.0%
+In-hospital mortality,11.0%
+comorb_cancer,19.0%
+comorb_cardiovascular,87.0%
+comorb_diabetes,31.0%
+comorb_infectious,38.0%
+comorb_liver,14.0%
+comorb_neuro_psych,71.0%
+comorb_renal,36.0%
+comorb_respiratory,57.0%

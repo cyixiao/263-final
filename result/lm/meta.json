@@ -1,0 +1,5 @@
+{
+  "n_train": 70,
+  "n_test": 30,
+  "cv_splits": 5
+}
