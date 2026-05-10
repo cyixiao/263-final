@@ -1,0 +1,5 @@
+{
+  "n_train": 14079,
+  "n_test": 6035,
+  "n_estimators": 600
+}

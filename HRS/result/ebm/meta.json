@@ -1,0 +1,17 @@
+{
+  "n_train": 14079,
+  "n_test": 6035,
+  "interactions": 0,
+  "feature_types": {
+    "physical_act": "nominal",
+    "female": "nominal",
+    "age": "continuous",
+    "raceeth": "nominal",
+    "educ": "nominal",
+    "marital_status": "nominal",
+    "bmi": "continuous",
+    "income": "nominal",
+    "smoking": "nominal",
+    "urban": "nominal"
+  }
+}

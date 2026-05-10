@@ -1,0 +1,11 @@
+{
+  "n_train": 70,
+  "n_test": 30,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "outcome_scale": "log ICU LOS"
+}

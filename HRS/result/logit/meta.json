@@ -1,0 +1,6 @@
+{
+  "n_train": 14079,
+  "n_test": 6035,
+  "elastic_net_C": 0.046415888336127774,
+  "elastic_net_l1_ratio": 0.9
+}

@@ -28,6 +28,8 @@ def main() -> None:
         MODEL_OUT / "gbm" / "perf.csv",
         MODEL_OUT / "rf" / "perf.csv",
         MODEL_OUT / "ebm" / "perf.csv",
+        MODEL_OUT / "quant" / "perf.csv",
+        MODEL_OUT / "nn" / "perf.csv",
     ]
     frames = [pd.read_csv(path) for path in perf_paths if path.exists()]
     if not frames:

@@ -1,0 +1,54 @@
+{
+  "source": "/Users/cyixiao/Desktop/263-final/HRS/archive/HRS_IPW.dta",
+  "n_rows": 20114,
+  "n_cols": 14,
+  "outcome": "diabetes",
+  "positive_class": "diabetes = 1",
+  "prediction_note": "pr_treat and ipw are retained for causal/IPW analyses but excluded from default prediction features.",
+  "labels": {
+    "diabetes": {
+      "0": "No diabetes",
+      "1": "Diabetes"
+    },
+    "physical_act": {
+      "0": "No vigorous activity",
+      "1": "Any vigorous activity"
+    },
+    "female": {
+      "0": "Male",
+      "1": "Female"
+    },
+    "raceeth": {
+      "0": "Non-Hispanic White",
+      "1": "Non-Hispanic Black",
+      "2": "Hispanic",
+      "3": "Other"
+    },
+    "educ": {
+      "1": "Less than high school",
+      "2": "High school graduate",
+      "3": "Some college",
+      "4": "College and above"
+    },
+    "marital_status": {
+      "1": "Married",
+      "2": "Separated/divorced",
+      "3": "Widowed",
+      "4": "Never married"
+    },
+    "income": {
+      "0": "<25k",
+      "1": "25k-49k",
+      "2": "50k-99k",
+      "3": "100k+"
+    },
+    "smoking": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "urban_r10": {
+      "0": "Suburban/rural",
+      "1": "Urban"
+    }
+  }
+}

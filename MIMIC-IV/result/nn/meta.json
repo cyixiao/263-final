@@ -1,0 +1,25 @@
+{
+  "model": "PyTorch MLP",
+  "n_train_full": 70,
+  "n_train_fit": 52,
+  "n_validation": 18,
+  "n_test": 30,
+  "n_features_after_preprocessing": 120,
+  "hidden_layers": [
+    128,
+    64,
+    32
+  ],
+  "dropout": [
+    0.2,
+    0.15
+  ],
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "max_epochs": 800,
+  "patience": 80,
+  "epochs_run": 151,
+  "best_validation_mse": 1.2354309095276728,
+  "outcome_scale": "log ICU LOS"
+}

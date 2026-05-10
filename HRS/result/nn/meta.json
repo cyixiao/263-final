@@ -1,0 +1,23 @@
+{
+  "model": "PyTorch MLP classifier",
+  "n_train_full": 14079,
+  "n_train_fit": 11263,
+  "n_validation": 2816,
+  "n_test": 6035,
+  "n_features_after_preprocessing": 26,
+  "hidden_layers": [
+    128,
+    64,
+    32
+  ],
+  "dropout": [
+    0.25,
+    0.15
+  ],
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "pos_weight": 3.5232932567596436,
+  "epochs_run": 44,
+  "best_validation_loss": 0.9805959192189303
+}

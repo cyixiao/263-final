@@ -1,0 +1,6 @@
+{
+  "note": "IPW analyses use the existing ipw column from the HRS analytic file.",
+  "n": 20114,
+  "mean_ipw": 1.9978618760447087,
+  "max_ipw": 14.862955600739
+}

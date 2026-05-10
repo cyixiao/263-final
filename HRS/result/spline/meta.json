@@ -1,0 +1,7 @@
+{
+  "model": "statsmodels GLM binomial with restricted cubic splines",
+  "n": 20114,
+  "age_spline_df": 4,
+  "bmi_spline_df": 4,
+  "test": "likelihood ratio tests comparing full spline model with reduced models"
+}
